@@ -1018,15 +1018,4 @@ def clear_results():
 
 # =================== تشغيل الموقع ===================
 if __name__ == '__main__':
-    print("🔥 X-PRO CHECKER v5.0 - Flask Web")
-    print("👑 المطور: HackerExos")
-    print("🌐 الموقع يعمل على: http://localhost:5000")
-    print("")
-    print("📌 الخطوات:")
-    print("1. افتح الموقع في المتصفح")
-    print("2. أدخل توكن البوت والأيدي")
-    print("3. اضغط 'اختبار الاتصال'")
-    print("4. أرسل ملف combo.txt للبوت في التليجرام")
-    print("5. البوت يرفع الملف للموقع ويبدأ الفحص")
-    print("6. النتائج ترسل لك في التليجرام")
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000)
